@@ -1,0 +1,2 @@
+# ChessCurd
+Anti-chess engine
