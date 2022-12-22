@@ -48,5 +48,10 @@
   "directory": "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/build",
   "command": "/usr/bin/g++ -g -o CMakeFiles/chessCurd.dir/Pieces/rook.cc.o -c \"/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/Pieces/rook.cc\"",
   "file": "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/Pieces/rook.cc"
+},
+{
+  "directory": "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/chessCurd.dir/Pieces/king.cc.o -c \"/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/Pieces/king.cc\"",
+  "file": "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/Pieces/king.cc"
 }
 ]

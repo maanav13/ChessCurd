@@ -153,6 +153,30 @@ Pieces/bishop.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessCurd.dir/build.make CMakeFiles/chessCurd.dir/Pieces/bishop.cc.s
 .PHONY : Pieces/bishop.cc.s
 
+Pieces/king.o: Pieces/king.cc.o
+.PHONY : Pieces/king.o
+
+# target to build an object file
+Pieces/king.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessCurd.dir/build.make CMakeFiles/chessCurd.dir/Pieces/king.cc.o
+.PHONY : Pieces/king.cc.o
+
+Pieces/king.i: Pieces/king.cc.i
+.PHONY : Pieces/king.i
+
+# target to preprocess a source file
+Pieces/king.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessCurd.dir/build.make CMakeFiles/chessCurd.dir/Pieces/king.cc.i
+.PHONY : Pieces/king.cc.i
+
+Pieces/king.s: Pieces/king.cc.s
+.PHONY : Pieces/king.s
+
+# target to generate assembly for a file
+Pieces/king.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessCurd.dir/build.make CMakeFiles/chessCurd.dir/Pieces/king.cc.s
+.PHONY : Pieces/king.cc.s
+
 Pieces/knight.o: Pieces/knight.cc.o
 .PHONY : Pieces/knight.o
 
@@ -381,6 +405,9 @@ help:
 	@echo "... Pieces/bishop.o"
 	@echo "... Pieces/bishop.i"
 	@echo "... Pieces/bishop.s"
+	@echo "... Pieces/king.o"
+	@echo "... Pieces/king.i"
+	@echo "... Pieces/king.s"
 	@echo "... Pieces/knight.o"
 	@echo "... Pieces/knight.i"
 	@echo "... Pieces/knight.s"

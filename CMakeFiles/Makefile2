@@ -81,12 +81,12 @@ clean: CMakeFiles/chessCurd.dir/clean
 CMakeFiles/chessCurd.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessCurd.dir/build.make CMakeFiles/chessCurd.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessCurd.dir/build.make CMakeFiles/chessCurd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target chessCurd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target chessCurd"
 .PHONY : CMakeFiles/chessCurd.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/chessCurd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/CMakeFiles" 11
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/CMakeFiles" 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/chessCurd.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/CMakeFiles" 0
 .PHONY : CMakeFiles/chessCurd.dir/rule

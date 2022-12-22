@@ -109,6 +109,12 @@ build CMakeFiles/chessCurd.dir/Pieces/rook.cc.o: CXX_COMPILER__chessCurd_Debug /
   OBJECT_DIR = CMakeFiles/chessCurd.dir
   OBJECT_FILE_DIR = CMakeFiles/chessCurd.dir/Pieces
 
+build CMakeFiles/chessCurd.dir/Pieces/king.cc.o: CXX_COMPILER__chessCurd_Debug /home/soaringmonkey13/MNR/Waterloo/3A/CO$ 456/ChessCurd/Pieces/king.cc || cmake_object_order_depends_target_chessCurd
+  DEP_FILE = CMakeFiles/chessCurd.dir/Pieces/king.cc.o.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/chessCurd.dir
+  OBJECT_FILE_DIR = CMakeFiles/chessCurd.dir/Pieces
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target chessCurd
@@ -117,7 +123,7 @@ build CMakeFiles/chessCurd.dir/Pieces/rook.cc.o: CXX_COMPILER__chessCurd_Debug /
 #############################################
 # Link the executable chessCurd
 
-build chessCurd: CXX_EXECUTABLE_LINKER__chessCurd_Debug CMakeFiles/chessCurd.dir/main.cc.o CMakeFiles/chessCurd.dir/move.cc.o CMakeFiles/chessCurd.dir/board.cc.o CMakeFiles/chessCurd.dir/utility.cc.o CMakeFiles/chessCurd.dir/Pieces/bishop.cc.o CMakeFiles/chessCurd.dir/Pieces/knight.cc.o CMakeFiles/chessCurd.dir/Pieces/pawn.cc.o CMakeFiles/chessCurd.dir/Pieces/piece.cc.o CMakeFiles/chessCurd.dir/Pieces/queen.cc.o CMakeFiles/chessCurd.dir/Pieces/rook.cc.o
+build chessCurd: CXX_EXECUTABLE_LINKER__chessCurd_Debug CMakeFiles/chessCurd.dir/main.cc.o CMakeFiles/chessCurd.dir/move.cc.o CMakeFiles/chessCurd.dir/board.cc.o CMakeFiles/chessCurd.dir/utility.cc.o CMakeFiles/chessCurd.dir/Pieces/bishop.cc.o CMakeFiles/chessCurd.dir/Pieces/knight.cc.o CMakeFiles/chessCurd.dir/Pieces/pawn.cc.o CMakeFiles/chessCurd.dir/Pieces/piece.cc.o CMakeFiles/chessCurd.dir/Pieces/queen.cc.o CMakeFiles/chessCurd.dir/Pieces/rook.cc.o CMakeFiles/chessCurd.dir/Pieces/king.cc.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/chessCurd.dir
   POST_BUILD = :

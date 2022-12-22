@@ -10,6 +10,8 @@
 #include <iostream>
 #include <string>
 
+bool isCastling() {}
+
 int main(int argc, char *argv[]) {
   Board *board = new Board();
   std::string color;
@@ -22,15 +24,6 @@ int main(int argc, char *argv[]) {
   std::unordered_set<Piece *> &availablePieces =
       isWhite ? board->availablePiecesWhite : board->availablePiecesBlack;
 
-  for (auto &u : board->availablePiecesBlack) {
-    std::cout << u->r << " " << u->c << " " << u->isWhite << " " << u->pType
-              << std::endl;
-  }
-  std::cout << "White" << std::endl;
-  for (auto &u : board->availablePiecesWhite) {
-    std::cout << u->r << " " << u->c << " " << u->isWhite << " " << u->pType
-              << std::endl;
-  }
   while (std::cin) {
     if (!isWhite) {
       std::cin >> inputMove;
@@ -38,6 +31,13 @@ int main(int argc, char *argv[]) {
         break;
       }
       Move m = Move(inputMove);
+      if (inputMove == "e8c8") {
+        Move m1 = Move("a8d8");
+        board->executeMove(m1);
+      } else if (inputMove == "e8g8") {
+        Move m1 = Move("h8f8");
+        board->executeMove(m1);
+      }
       board->executeMove(m);
     }
     for (auto &onePiece : availablePieces) {
@@ -50,13 +50,16 @@ int main(int argc, char *argv[]) {
         possibleMoves.pop();
       }
     }
+    std::cout << "Valid Moves" << std::endl;
     for (auto &i : validMoves) {
       i.display();
       std::cout << std::endl;
     }
+    std::cout << "Chosen Moves" << std::endl;
     if (!validMoves.empty()) {
       board->executeMove(validMoves[0]);
       validMoves[0].display();
+      std::cout << std::endl;
     }
     validMoves = {};
     possibleMoves = {};
@@ -67,12 +70,19 @@ int main(int argc, char *argv[]) {
         break;
       }
       Move m = Move(inputMove);
+      if (inputMove == "e1c1") {
+        Move m1 = Move("a1d1");
+        board->executeMove(m1);
+      } else if (inputMove == "e1g1") {
+        Move m1 = Move("h1f1");
+        board->executeMove(m1);
+      }
       board->executeMove(m);
     }
     for (int i = 0; i < 8; i++) {
       for (int j = 0; j < 8; j++) {
         if (board->state[i][j]) {
-          std::cout << board->state[i][j]->isWhite;
+          std::cout << board->state[i][j]->pType;
         } else {
           std::cout << "*";
         }

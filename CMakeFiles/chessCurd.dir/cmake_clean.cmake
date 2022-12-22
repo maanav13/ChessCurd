@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/chessCurd.dir/Pieces/bishop.cc.o"
   "CMakeFiles/chessCurd.dir/Pieces/bishop.cc.o.d"
+  "CMakeFiles/chessCurd.dir/Pieces/king.cc.o"
+  "CMakeFiles/chessCurd.dir/Pieces/king.cc.o.d"
   "CMakeFiles/chessCurd.dir/Pieces/knight.cc.o"
   "CMakeFiles/chessCurd.dir/Pieces/knight.cc.o.d"
   "CMakeFiles/chessCurd.dir/Pieces/pawn.cc.o"

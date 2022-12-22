@@ -33,16 +33,16 @@ bool fixedMove(std::vector<Move> &validMoves, std::stack<Move> &possibleMoves,
                Piece *p, int rowOffset, int colOffset) {
   Piece *target = nullptr;
   bool foundCapture = false;
-  int col = p->c, row = p->r;
   int row = p->r + rowOffset;
   int col = p->c + colOffset;
-  if (row <= 7 && row >= 0 && col <= 7 && col >= 0)
+  if (row <= 7 && row >= 0 && col <= 7 && col >= 0) {
     target = p->board->state[row][col];
-  if (!target) {
-    possibleMoves.push(Move(Posn(p->r, p->c), Posn(row, col), same));
-  } else if (target && target->isWhite != p->isWhite) {
-    validMoves.push_back(Move(Posn(p->r, p->c), Posn(row, col), same));
-    foundCapture = true;
+    if (!target) {
+      possibleMoves.push(Move(Posn(p->r, p->c), Posn(row, col), same));
+    } else if (target && target->isWhite != p->isWhite) {
+      validMoves.push_back(Move(Posn(p->r, p->c), Posn(row, col), same));
+      foundCapture = true;
+    }
   }
   return foundCapture;
 }

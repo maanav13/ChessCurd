@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/Pieces/bishop.cc" "CMakeFiles/chessCurd.dir/Pieces/bishop.cc.o" "gcc" "CMakeFiles/chessCurd.dir/Pieces/bishop.cc.o.d"
+  "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/Pieces/king.cc" "CMakeFiles/chessCurd.dir/Pieces/king.cc.o" "gcc" "CMakeFiles/chessCurd.dir/Pieces/king.cc.o.d"
   "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/Pieces/knight.cc" "CMakeFiles/chessCurd.dir/Pieces/knight.cc.o" "gcc" "CMakeFiles/chessCurd.dir/Pieces/knight.cc.o.d"
   "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/Pieces/pawn.cc" "CMakeFiles/chessCurd.dir/Pieces/pawn.cc.o" "gcc" "CMakeFiles/chessCurd.dir/Pieces/pawn.cc.o.d"
   "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/Pieces/piece.cc" "CMakeFiles/chessCurd.dir/Pieces/piece.cc.o" "gcc" "CMakeFiles/chessCurd.dir/Pieces/piece.cc.o.d"

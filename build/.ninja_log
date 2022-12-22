@@ -1,18 +1,12 @@
 # ninja log v5
 1	1221	1671656715404946785	CMakeFiles/chessCurd.dir/utility.cc.o	8ddbefc776808a31
-0	654	1671656714836953834	CMakeFiles/chessCurd.dir/move.cc.o	6f2436b48ef500ed
-0	1478	1671656715660943606	CMakeFiles/chessCurd.dir/main.cc.o	b413f13e02bb5694
+0	360	1671664027859937583	CMakeFiles/chessCurd.dir/move.cc.o	6f2436b48ef500ed
+0	641	1671664028139922061	CMakeFiles/chessCurd.dir/main.cc.o	b413f13e02bb5694
 3	1249	1671656715432946438	CMakeFiles/chessCurd.dir/Pieces/piece.cc.o	9f70849746b0458f
-2	1251	1671656715432946438	CMakeFiles/chessCurd.dir/Pieces/pawn.cc.o	96c8af7b71636a1f
+1	587	1671664028087924942	CMakeFiles/chessCurd.dir/Pieces/pawn.cc.o	96c8af7b71636a1f
 0	1462	1671656715644943804	CMakeFiles/chessCurd.dir/board.cc.o	be57f43b1afb6972
-1479	1612	1671656715792941966	chessCurd	5f6619af975f6961
+641	749	1671664028247916077	chessCurd	5f6619af975f6961
 3	1046	1671656715228948971	CMakeFiles/chessCurd.dir/Pieces/queen.cc.o	5580cf3e5bc49241
 1	809	1671656714992951901	CMakeFiles/chessCurd.dir/Pieces/knight.cc.o	df5699fae1ce9786
 22	1266	1671656715448946239	CMakeFiles/chessCurd.dir/Pieces/rook.cc.o	3a9157d98919f978
 1	1123	1671656715304948027	CMakeFiles/chessCurd.dir/Pieces/bishop.cc.o	3706596ec7fd4ddd
-1	268	1671657357210392920	CMakeFiles/chessCurd.dir/move.cc.o	6f2436b48ef500ed
-268	377	1671657357318391387	chessCurd	5f6619af975f6961
-0	360	1671664027859937583	CMakeFiles/chessCurd.dir/move.cc.o	6f2436b48ef500ed
-1	587	1671664028087924942	CMakeFiles/chessCurd.dir/Pieces/pawn.cc.o	96c8af7b71636a1f
-0	641	1671664028139922061	CMakeFiles/chessCurd.dir/main.cc.o	b413f13e02bb5694
-641	749	1671664028247916077	chessCurd	5f6619af975f6961

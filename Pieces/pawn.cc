@@ -33,7 +33,7 @@ bool Pawn::findValidMoves(std::vector<Move> &validMoves,
   if (r == 1 && isWhite || r == 6 && !isWhite) {
     target = board->state[r + 2 * offset][c];
     if (!target) {
-      possibleMoves.push(Move(Posn(r, c), Posn(r + offset, c), same));
+      possibleMoves.push(Move(Posn(r, c), Posn(r + 2 * offset, c), same));
     }
   }
   return foundCapture;
