@@ -1,5 +1,6 @@
 #include "board.h"
 #include "Pieces/bishop.h"
+#include "Pieces/king.h"
 #include "Pieces/knight.h"
 #include "Pieces/pawn.h"
 #include "Pieces/piece.h"
@@ -18,7 +19,7 @@ Board::Board() {
     state[i][2] = new Bishop(isWhite, bishop, i, 2, this);
     state[i][5] = new Bishop(isWhite, bishop, i, 5, this);
     state[i][3] = new Queen(isWhite, queen, i, 3, this);
-    state[i][4] = nullptr;
+    state[i][4] = new King(isWhite, king, i, 4, this);
     int pawnRow = i == 0 ? 1 : 6;
     for (int j = 0; j < 8; j++) {
       state[pawnRow][j] = new Pawn(isWhite, pawn, pawnRow, j, this);
@@ -30,10 +31,8 @@ Board::Board() {
     }
   }
   for (int j = 0; j < 8; j++) {
-    if (j != 4) {
-      availablePiecesWhite.insert(state[0][j]);
-      availablePiecesBlack.insert(state[7][j]);
-    }
+    availablePiecesWhite.insert(state[0][j]);
+    availablePiecesBlack.insert(state[7][j]);
     availablePiecesWhite.insert(state[1][j]);
     availablePiecesBlack.insert(state[6][j]);
   }
