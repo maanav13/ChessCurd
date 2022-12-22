@@ -1,17 +1,28 @@
 #ifndef BOARD_H
 #define BOARD_H
 
-#include <vector>
+#include <array>
+#include <memory>
+#include <stack>
+#include <unordered_set>
 
 class Move;
 class Piece;
 
 class Board {
-    std::vector<Piece *> state;
+public:
+  Piece *state[8][8];
+  std::unordered_set<Piece *> availablePiecesWhite;
+  std::unordered_set<Piece *> availablePiecesBlack;
+  std::stack<Piece *> removedPiecePrediction;
 
-    void executeMove(const Move& m);
+  Board();
 
-    void undoMove(const Move& m);
+  ~Board();
+
+  void executeMove(const Move &m);
+
+  void undoMove(const Move &m);
 };
 
 #endif

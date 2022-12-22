@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/chessCurd.dir/main.cc.o -c \"/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/main.cc\"",
+  "file": "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/main.cc"
+},
+{
+  "directory": "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/chessCurd.dir/move.cc.o -c \"/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/move.cc\"",
+  "file": "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/move.cc"
+},
+{
+  "directory": "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/chessCurd.dir/board.cc.o -c \"/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/board.cc\"",
+  "file": "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/board.cc"
+},
+{
+  "directory": "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/chessCurd.dir/utility.cc.o -c \"/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/utility.cc\"",
+  "file": "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/utility.cc"
+},
+{
+  "directory": "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/chessCurd.dir/Pieces/bishop.cc.o -c \"/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/Pieces/bishop.cc\"",
+  "file": "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/Pieces/bishop.cc"
+},
+{
+  "directory": "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/chessCurd.dir/Pieces/knight.cc.o -c \"/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/Pieces/knight.cc\"",
+  "file": "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/Pieces/knight.cc"
+},
+{
+  "directory": "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/chessCurd.dir/Pieces/pawn.cc.o -c \"/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/Pieces/pawn.cc\"",
+  "file": "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/Pieces/pawn.cc"
+},
+{
+  "directory": "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/chessCurd.dir/Pieces/piece.cc.o -c \"/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/Pieces/piece.cc\"",
+  "file": "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/Pieces/piece.cc"
+},
+{
+  "directory": "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/chessCurd.dir/Pieces/queen.cc.o -c \"/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/Pieces/queen.cc\"",
+  "file": "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/Pieces/queen.cc"
+},
+{
+  "directory": "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/chessCurd.dir/Pieces/rook.cc.o -c \"/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/Pieces/rook.cc\"",
+  "file": "/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/Pieces/rook.cc"
+}
+]

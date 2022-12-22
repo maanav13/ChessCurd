@@ -1,21 +1,28 @@
 #ifndef PIECE_H
 #define PIECE_H
+#include "../board.h"
+#include "../utility.h"
 #include <vector>
 
 class Move;
 
 class Piece {
-    double value;
-    bool isWhite;
-    int x;
-    int y;
+public:
+  double value;
+  bool isWhite;
+  pieceType pType;
+  int r;
+  int c;
+  Board *board;
 
-    virtual void findValidMoves(std::vector<Move>& validMoves) = 0;
+  Piece(bool isWhite, pieceType pType, int r, int c, Board *board);
 
-    virtual void executeMove(const Move& m);
+  virtual bool findValidMoves(std::vector<Move> &validMoves,
+                              std::stack<Move> &possibleMoves) = 0;
 
-    virtual void undoMove(const Move& m);
+  virtual void executeMove(const Move &m);
 
+  virtual void undoMove(const Move &m);
 };
 
 #endif
