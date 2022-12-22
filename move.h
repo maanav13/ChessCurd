@@ -2,16 +2,20 @@
 #define MOVE_H
 
 #include "utility.h"
-
+#include <string>
 class Piece;
 
 class Move {
-    Posn origin;
-    Posn destination;
-    moveType mType;
-    Piece * atDestination;
+public:
+  Posn origin;
+  Posn destination;
+  pieceType toPromote;
 
-    Move(Posn origin, Posn destination, moveType mType, Piece *atDestination);
+  Move(Posn origin, Posn destination, pieceType toPromote);
+
+  Move(std::string inputMove);
+
+  void display();
 };
 
 #endif
