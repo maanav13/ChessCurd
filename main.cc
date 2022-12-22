@@ -7,10 +7,9 @@
 #include "board.h"
 #include "move.h"
 #include "utility.h"
+#include <cstdlib>
 #include <iostream>
 #include <string>
-
-bool isCastling() {}
 
 int main(int argc, char *argv[]) {
   Board *board = new Board();
@@ -50,16 +49,10 @@ int main(int argc, char *argv[]) {
         possibleMoves.pop();
       }
     }
-    std::cout << "Valid Moves" << std::endl;
-    for (auto &i : validMoves) {
-      i.display();
-      std::cout << std::endl;
-    }
-    std::cout << "Chosen Moves" << std::endl;
     if (!validMoves.empty()) {
-      board->executeMove(validMoves[0]);
-      validMoves[0].display();
-      std::cout << std::endl;
+      int moveNum = rand() % validMoves.size();
+      board->executeMove(validMoves[moveNum]);
+      validMoves[moveNum].display();
     }
     validMoves = {};
     possibleMoves = {};
@@ -78,16 +71,6 @@ int main(int argc, char *argv[]) {
         board->executeMove(m1);
       }
       board->executeMove(m);
-    }
-    for (int i = 0; i < 8; i++) {
-      for (int j = 0; j < 8; j++) {
-        if (board->state[i][j]) {
-          std::cout << board->state[i][j]->pType;
-        } else {
-          std::cout << "*";
-        }
-      }
-      std::cout << std::endl;
     }
   }
   delete board;
