@@ -1,3 +1,0 @@
-/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/CMakeFiles/chessCurd.dir
-/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/CMakeFiles/edit_cache.dir
-/home/soaringmonkey13/MNR/Waterloo/3A/CO 456/ChessCurd/CMakeFiles/rebuild_cache.dir

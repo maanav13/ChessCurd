@@ -32,5 +32,5 @@ Move::Move(std::string inputMove) {
 
 void Move::display() {
   std::cout << (char)(origin.c + 97) << origin.r + 1
-            << (char)(destination.c + 97) << destination.r + 1;
+            << (char)(destination.c + 97) << destination.r + 1 << "\n";
 }

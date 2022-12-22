@@ -8,13 +8,15 @@
 #include "move.h"
 #include "utility.h"
 #include <cstdlib>
+#include <ctime>
 #include <iostream>
 #include <string>
 
 int main(int argc, char *argv[]) {
+  std::srand(std::time(nullptr));
   Board *board = new Board();
   std::string color;
-  std::cin >> color;
+  color = argv[1];
   bool isWhite = color == "white";
   std::string inputMove;
   std::vector<Move> validMoves;
@@ -50,7 +52,7 @@ int main(int argc, char *argv[]) {
       }
     }
     if (!validMoves.empty()) {
-      int moveNum = rand() % validMoves.size();
+      int moveNum = std::rand() % validMoves.size();
       board->executeMove(validMoves[moveNum]);
       validMoves[moveNum].display();
     }
